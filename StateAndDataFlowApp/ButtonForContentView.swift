@@ -7,13 +7,13 @@
 
 import SwiftUI
 
-struct ButtonFormat: View {
+struct ButtonForContentView: View {
     let buttonName: String
     let color: Color
     var action: () -> Void
     
     var body: some View {
-        Button(action:  action ) {
+        Button(action:  action) {
             Text("\(buttonName)")
                 .font(.largeTitle)
                 .fontWeight(.bold)
@@ -31,6 +31,6 @@ struct ButtonFormat: View {
 
 struct ButtonFormat_Previews: PreviewProvider {
     static var previews: some View {
-        ButtonFormat(buttonName: "start",  color: Color.red, action: {})
+        ButtonForContentView(buttonName: "start",  color: Color.red, action: {})
     }
 }

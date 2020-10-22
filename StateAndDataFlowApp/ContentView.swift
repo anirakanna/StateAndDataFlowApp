@@ -21,20 +21,15 @@ struct ContentView: View {
                 .font(.largeTitle)
                 .offset(x: 0, y: 200)
             Spacer()
-            ButtonView(timer: timer)
+            
+            ButtonForContentView(buttonName: timer.buttonTitle, color: .red) {
+                timer.startTimer()
+            }
             Spacer()
-            ButtonFormat(buttonName: "Log out", color: .blue, action: {
+            ButtonForContentView(buttonName: "Log out", color: .blue, action: {
                 user.isRegister = false
+                user.resetUserDefaults()
             })
-        }
-    }
-}
-struct ButtonView: View {
-    @ObservedObject var timer: TimeCounter
-        
-    var body: some View {
-        ButtonFormat(buttonName: timer.buttonTitle, color: .red) {
-            timer.startTimer()
         }
     }
 }

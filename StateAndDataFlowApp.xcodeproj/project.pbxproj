@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		8048B892254222B5008D8CFB /* ButtonFormat.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048B891254222B5008D8CFB /* ButtonFormat.swift */; };
+		8048B892254222B5008D8CFB /* ButtonForContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8048B891254222B5008D8CFB /* ButtonForContentView.swift */; };
 		A88CDAD22540ACB200A375AC /* StateAndDataFlowAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CDAD12540ACB200A375AC /* StateAndDataFlowAppApp.swift */; };
 		A88CDAD42540ACB200A375AC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A88CDAD32540ACB200A375AC /* ContentView.swift */; };
 		A88CDAD62540ACB400A375AC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A88CDAD52540ACB400A375AC /* Assets.xcassets */; };
@@ -19,7 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		8048B891254222B5008D8CFB /* ButtonFormat.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonFormat.swift; sourceTree = "<group>"; };
+		8048B891254222B5008D8CFB /* ButtonForContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonForContentView.swift; sourceTree = "<group>"; };
 		A88CDACE2540ACB200A375AC /* StateAndDataFlowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StateAndDataFlowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A88CDAD12540ACB200A375AC /* StateAndDataFlowAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StateAndDataFlowAppApp.swift; sourceTree = "<group>"; };
 		A88CDAD32540ACB200A375AC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -64,7 +64,7 @@
 			children = (
 				A88CDAD12540ACB200A375AC /* StateAndDataFlowAppApp.swift */,
 				A88CDAD32540ACB200A375AC /* ContentView.swift */,
-				8048B891254222B5008D8CFB /* ButtonFormat.swift */,
+				8048B891254222B5008D8CFB /* ButtonForContentView.swift */,
 				A88CDAEB2540C01B00A375AC /* StarterView.swift */,
 				A88CDAE52540BC9F00A375AC /* RegisteredView.swift */,
 				A88CDAE12540B4B600A375AC /* TimeCounter.swift */,
@@ -155,7 +155,7 @@
 			files = (
 				A88CDAE62540BC9F00A375AC /* RegisteredView.swift in Sources */,
 				A88CDAE22540B4B600A375AC /* TimeCounter.swift in Sources */,
-				8048B892254222B5008D8CFB /* ButtonFormat.swift in Sources */,
+				8048B892254222B5008D8CFB /* ButtonForContentView.swift in Sources */,
 				A88CDAEC2540C01B00A375AC /* StarterView.swift in Sources */,
 				A88CDAD42540ACB200A375AC /* ContentView.swift in Sources */,
 				A88CDAE92540BDE700A375AC /* UserManager.swift in Sources */,
